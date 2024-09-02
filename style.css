@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Jost", sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.header {
+    width: 15%;
+    height: 100vh;
+    position: fixed;
+    background-color: #f2f2f2;
+    border: 1px solid #c1c0c0;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 10%;
+}
+
+.links a {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #989797;
+    border-radius: 20px;
+    margin: 5px;
+    text-decoration: none;
+    color: #989797;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+}
+
+.links a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.page {
+    width: 85%;
+    margin: 0% 0% 0% 15%;
+    display: flex;
+}
+
+.perfis {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px;
+    width: 100%;
+}
+
+.perfil {
+    width: 100%;
+    min-height: 30vh;
+    background-color: #f2f2f2;
+    border: 1px solid #c1c0c0;
+    margin-top: 10px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.foto {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.foto img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    border: 1px solid #c1c0c0;
+}
+
+.descricao {
+    width: 60%;
+    min-height: 90%;
+    margin: 10px;
+}
+
+.descricao h3 {
+    margin: 10px 0 0 0;
+}
+
+.links-perfil {
+    width: 20%;
+    height: 90%;
+    margin: 10px;
+}
+
+.linkedin {
+    background-color: #0A78B5;
+    border: 1px solid #c1c0c0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    width: 90%;
+    height: 40%;
+    margin: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.github {
+    background-color: #592D82;
+    border: 1px solid #c1c0c0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    width: 90%;
+    height: 40%;
+    margin: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.linkedin a {
+    color: #000;
+    text-decoration: none;
+    margin: 5px;
+}
+
+.github a {
+    color: #000;
+    text-decoration: none;
+    margin: 5px;
+}
+
+.linkedin:hover {
+    background-color: #0b98e3;
+}
+
+.github:hover {
+    background-color: #7e4dac;
+}
+
+@media (max-width: 1000px) {
+
+    body {
+        font-family: "Jost", sans-serif;
+        margin: 0;
+        padding: 0;
+        display: flex;
+    }
+
+    .header {
+        width: 100%;
+        height: 10vh;
+        position: absolute;
+    }
+
+    .links {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        margin: 10px;
+    }
+
+    .page {
+        width: 100%;
+        margin: 8% 1%;
+        display: flex;
+    }
+
+
+}
+
+@media (max-width: 750px) {
+
+    .page {
+        width: 100%;
+        margin: 20% 1%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .perfil {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .descricao {
+        width: 90%;
+        min-height: 40%;
+        margin: 5% 15%;
+        text-align: justify;
+    }
+
+    .links-perfil {
+        width: 100%;
+        height: 90%;
+    }
+}

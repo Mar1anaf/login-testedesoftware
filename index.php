@@ -35,7 +35,7 @@ include './conexao.php';
                     <img src="./img/mariana.jpeg">
                 </div>
                 <div class="descricao">
-                    <h3>Mariana</h3>
+                    <h3>Mariana Morgado</h3>
                     <p>Me chamo Mariana, tenho 17 anos e sou formanda no Técnico de Desenvolvimento de Sistemas SENAI. Pretendo cursar bacharelado em Nutrição e especialização em Nutrição Clínica, além disso pretendo também realizar pós-graduação em MDA de Gastronomia (posteriormente um curso técnico em gastronomia apenas, para desenvolvimento próprio), visando adquirir meu próprio consultório atrelado a um restaurante fitness.</p>
                 </div>
                 <div class="links-perfil">
@@ -73,7 +73,7 @@ include './conexao.php';
             <img src="./img/kathlleen.jpeg">
             </div>
                 <div class="descricao">
-                    <h3>Kathlleen</h3>
+                    <h3>Kathleen Corrêa</h3>
                     <p>Me chamo Kathleen, tenho 18 anos e me encontro aos finais do curso técnico em Desenvolvimento de Sistemas SENAI. Focando em me tornar juíza, planejo cursar direito e posteriormente realizar o concurso público, ainda assim compreendo a incumbência como advogada.</p>
                 </div>
                 <div class="links-perfil">
